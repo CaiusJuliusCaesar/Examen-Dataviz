@@ -53,7 +53,7 @@ Le but maintenant est alors de le traiter avec OpenRefine pour réconciler le je
 
 
 ## Analyse et visualisation
-Ici, il est question d'interroger notre jeu de données.
+C'est dans cette partie que le jeu de données va être interroger, visualiser à partir des interrogations et analyser.
 
 Question 1
 Visualisation
