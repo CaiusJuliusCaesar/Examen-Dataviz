@@ -47,6 +47,7 @@ WHERE {
 GROUP BY ?titre
 ```
 On obtient maintenant un résultat de 6843 jeux vidéos. Je ne pense pas que ce résultat soit exhaustive, une requête plus poussée pourrait surement le permettre.
+
 ---
 
 ## 2. Jeu de données
