@@ -53,18 +53,26 @@ Le but maintenant est alors de le traiter avec OpenRefine pour réconciler le je
 
 Les modifications apporter et les augmentations faites avec OpenRefine sont dans le dossier compressé Examen_dataviz_M2DEFI_2021_Julien_Mattei qui contient les fichiers Jeux_Videos.csv et Modifications_OpenRefine_Jeux_Videos.json.
 
+Après l'augmentation et le nettoyage du jeu de données, il ressort finalement 166 résultats qui sont divisés en  catégories distinctes :
+      *le titre
+      *
+
 ## Analyse et visualisation
 C'est dans cette partie que le jeu de données va être interroger, visualiser à partir des interrogations et analyser.
 
 Question 1
-Visualisation
+Quels sont les jeux disponibles dès l'âge de ?
 Analyse
 
 Question 2
-Visualisation
+Quels sont les jeux disponibles par critères d'âges selon et qui sont disponibles à la fois sur Playstation 4, Xbox One et Nintendo Switch?
+
+<iframe src='https://flo.uri.sh/visualisation/5160432/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5160432/?utm_source=embed&utm_campaign=visualisation/5160432' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+
 Analyse
 
 Question 3
+
 Visualisation
 Analyse
 
