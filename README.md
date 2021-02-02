@@ -1,4 +1,6 @@
 # Les jeux vidéos
+---
+
 ## 1. Introduction
 Pour cet examen, j'ai choisi le thème des jeux vidéos sans véritable restriction dès le départ. J'ai choisi de partir de rien pour avoir un jeu de données sur ce thème. En effet ayant trouvé peu de jeu de données abordant ce dernier, je me suis mis a réfléchir sur la façon d'en construire. Le fait d'avoir traiter wikidata et openrefine en cours m'a permis de le créer selon les critères que je souhaitais. 
 * Voici la requête sparql utilisée pour récupérer les instances wikidata :
@@ -45,7 +47,7 @@ WHERE {
 GROUP BY ?titre
 ```
 On obtient maintenant un résultat de 6843 jeux vidéos. Je ne pense pas que ce résultat soit exhaustive, une requête plus poussée pourrait surement le permettre.
-
+---
 
 ## 2. Jeu de données
 
@@ -58,14 +60,14 @@ Le but maintenant est alors de le traiter avec OpenRefine pour réconciler le je
 Les modifications apporter et les augmentations faites avec OpenRefine sont dans le dossier compressé Examen_dataviz_M2DEFI_2021_Julien_Mattei qui contient les fichiers Jeux_Videos.csv et Modifications_OpenRefine_Jeux_Videos.json.
 
 Après l'augmentation et le nettoyage du jeu de données, il ressort finalement 166 résultats qui sont divisés en  catégories distinctes :
-         * titre
-         * pays d'origine (country of origin)
-         * genre
-         * la date de sortie (publication date)
-         * la plateforme ou console (platform)
-         * le mode de jeu (game mode)
-         * l'âge auquel on peut jouer (PEGI rating)
-         
+* titre
+* pays d'origine (country of origin)
+* genre
+* la date de sortie (publication date)
+* la plateforme ou console (platform)
+* le mode de jeu (game mode)
+* l'âge auquel on peut jouer (PEGI rating)
+ ---      
 
 ## 3. Analyse et visualisation
 Pour cette partie, j'ai décidé de créer une story avec [Flourish](https://app.flourish.studio/projects)
