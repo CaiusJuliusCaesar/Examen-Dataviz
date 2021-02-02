@@ -1,6 +1,12 @@
 # Les jeux vidéos
 ---
 
+[1. Introduction](Introduction)
+[2. Jeu de données](Jeu de données)
+[3. Analyse et visualisation](Analyse et visualisation)
+
+---
+
 ## 1. Introduction
 Pour cet examen, j'ai choisi le thème des jeux vidéos sans véritable restriction dès le départ. J'ai choisi de partir de rien pour avoir un jeu de données sur ce thème. En effet ayant trouvé peu de jeu de données abordant ce dernier, je me suis mis a réfléchir sur la façon d'en construire. Le fait d'avoir traiter wikidata et openrefine en cours m'a permis de le créer selon les critères que je souhaitais. 
 * Voici la requête sparql utilisée pour récupérer les instances wikidata :
@@ -68,7 +74,8 @@ Après l'augmentation et le nettoyage du jeu de données, il ressort finalement 
 * la plateforme ou console (platform)
 * le mode de jeu (game mode)
 * l'âge auquel on peut jouer (PEGI rating)
- ---      
+
+---      
 
 ## 3. Analyse et visualisation
 Pour cette partie, j'ai décidé de créer une story avec [Flourish](https://app.flourish.studio/projects)
