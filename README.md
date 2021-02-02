@@ -1,5 +1,5 @@
 # Les jeux vidéos
-## Introduction
+## 1.Introduction
 Pour cet examen, j'ai choisi le thème des jeux vidéos sans véritable restriction dès le départ. J'ai choisi de partir de rien pour avoir un jeu de données sur ce thème. En effet ayant trouvé peu de jeu de données abordant ce dernier, je me suis mis a réfléchir sur la façon d'en construire. Le fait d'avoir traiter wikidata et openrefine en cours m'a permis de le créer selon les critères que je souhaitais. 
 * Voici la requête sparql utilisée pour récupérer les instances wikidata :
 
@@ -54,8 +54,6 @@ Le but maintenant est alors de le traiter avec OpenRefine pour réconciler le je
 Les modifications apporter et les augmentations faites avec OpenRefine sont dans le dossier compressé Examen_dataviz_M2DEFI_2021_Julien_Mattei qui contient les fichiers Jeux_Videos.csv et Modifications_OpenRefine_Jeux_Videos.json.
 
 Après l'augmentation et le nettoyage du jeu de données, il ressort finalement 166 résultats qui sont divisés en  catégories distinctes :
-      *le titre
-      *
 
 ## Analyse et visualisation
 C'est dans cette partie que le jeu de données va être interroger, visualiser à partir des interrogations et analyser.
