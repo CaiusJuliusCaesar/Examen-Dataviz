@@ -77,3 +77,9 @@ Pour cette partie, j'ai décidé de créer une story avec [Flourish](https://app
 C'est partie pour une courte story :
 
 <iframe src='https://flo.uri.sh/story/748703/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/story/748703/?utm_source=embed&utm_campaign=story/748703' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+
+---
+
+## 4. Conclusion
+
+Pour conclure sur mon sujet, j'ai volontairement choisi de créer mon propre jeu de données à partir d'une requête sparql sur [wikidata query service](https://query.wikidata.org/) et de le manier avec OpenRefine et l'API de wikidata english qui est proposé ("il faut être fainéant" comme le disait si bien un de mes professeurs). Mais mon jeu de donnée de base était bien trop lourd et j'ai dû l'épurer de plus en plus. Malgrès cela, j'ai pu exploiter les données que j'avais générer mais pas aussi bien que je l'aurais souhaité. 
