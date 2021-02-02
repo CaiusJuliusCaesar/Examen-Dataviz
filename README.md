@@ -20,7 +20,7 @@ WHERE {
     VALUES ?type {wd:Q17589470 wd:Q27496624}
     VALUES ?entreprise {wd:Q18594 wd:Q8093 wd:Q2283 wd:Q463094}
 }
-'''sparql
+'''
 
 
 ## Jeu de données
