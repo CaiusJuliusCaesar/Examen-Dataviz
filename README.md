@@ -52,6 +52,6 @@ Le jeu de données se présente ainsi :
 Le but maintenant est alors de le traiter avec OpenRefine pour réconciler le jeu de données et pouvoir l'augmenter avec la réconcialiation.
 
 
-## Visualisation
+## Analyse et visualisation
 
 
