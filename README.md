@@ -48,6 +48,8 @@ On obtient maintenant un résultat de 6843 jeux vidéos. Je ne pense pas que ce 
 
 
 ## 2. Jeu de données
+
+
 Le jeu de données se présente ainsi :
 <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20%3Ftitre%0AWHERE%20%7B%0A%20%20%20%3Fplateform%20wdt%3AP279%20%3Ftype.%0A%20%20%20%3Fplateform%20wdt%3AP176%7Cwd%3AP178%20%3Fentreprise.%0A%20%20%20%3Fplateform%20wdt%3AP577%7Cwdt%3AP571%20%3FdateSortiePlateform%20FILTER%20%28%221993-01-01%22%5E%5Exsd%3AdateTime%20%3C%20%3FdateSortiePlateform%29.%0A%20%20%20%3Ftitre%20wdt%3AP31%20wd%3AQ7889.%0A%20%20%20%3Ftitre%20wdt%3AP400%20%3Fplateform.%0A%20%20%20%3Ftitre%20wdt%3AP136%20%3F_genre.%0A%20%20%20%3Ftitre%20wdt%3AP123%20%3F_editeur.%0A%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20OPTIONAL%20%7B%3Ftitre%20wdt%3AP495%20%3F_pays.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ftitre%20wdt%3AP18%20%3Fimage.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20VALUES%20%3Ftype%20%7Bwd%3AQ17589470%20wd%3AQ27496624%7D%0A%20%20%20%20VALUES%20%3Fentreprise%20%7Bwd%3AQ18594%20wd%3AQ8093%20wd%3AQ2283%20wd%3AQ463094%7D%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%7D%0A%7D%0AGROUP%20BY%20%3Ftitre" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
 
@@ -56,6 +58,14 @@ Le but maintenant est alors de le traiter avec OpenRefine pour réconciler le je
 Les modifications apporter et les augmentations faites avec OpenRefine sont dans le dossier compressé Examen_dataviz_M2DEFI_2021_Julien_Mattei qui contient les fichiers Jeux_Videos.csv et Modifications_OpenRefine_Jeux_Videos.json.
 
 Après l'augmentation et le nettoyage du jeu de données, il ressort finalement 166 résultats qui sont divisés en  catégories distinctes :
+         * titre
+         * pays d'origine (country of origin)
+         * genre
+         * la date de sortie (publication date)
+         * la plateforme ou console (platform)
+         * le mode de jeu (game mode)
+         * l'âge auquel on peut jouer (PEGI rating)
+         
 
 ## 3. Analyse et visualisation
 Pour cette partie, j'ai décidé de créer une story avec [Flourish](https://app.flourish.studio/projects)
