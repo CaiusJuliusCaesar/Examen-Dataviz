@@ -51,7 +51,7 @@ Le jeu de données se présente ainsi :
 
 Le but maintenant est alors de le traiter avec OpenRefine pour réconciler le jeu de données et pouvoir l'augmenter avec la réconcialiation. Or lors de la réconciliation à partir de l'instance wikidata, la restriction mise en place dans la requête n'est plus valide et toutes les informations qui sont en lien avec une propriété sont récupérées. Ce la peut ou non poser problème mais ici, j'aurais tendance à dire que cela permettra d'avoir plus de possibilité de visualisation je pense.
 
-Les modifications apporter et les augmentations faites avec OpenRefine sont dans le fichier 
+Les modifications apporter et les augmentations faites avec OpenRefine sont dans le dossier compressé Examen_dataviz_M2DEFI_2021_Julien_Mattei qui contient les fichiers Jeux_Videos.csv et Modifications_OpenRefine_Jeux_Videos.json.
 
 ## Analyse et visualisation
 C'est dans cette partie que le jeu de données va être interroger, visualiser à partir des interrogations et analyser.
