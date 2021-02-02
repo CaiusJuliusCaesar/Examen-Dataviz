@@ -1,12 +1,4 @@
-# Les jeux vidéos
----
-
-[1. Introduction](Introduction)
-
-[2. Jeu de données](Jeu de données)
-
-[3. Analyse et visualisation](Analyse et visualisation)
-
+#Les jeux vidéos
 ---
 
 ## 1. Introduction
