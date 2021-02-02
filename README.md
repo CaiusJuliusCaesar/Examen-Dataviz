@@ -5,7 +5,7 @@ Pour cet examen, j'ai choisi le thème des jeux vidéos sans véritable restrict
 
 ```sparql
 
-SELECT ?item
+SELECT ?item ?itemLabel
 WHERE {
    ?plateform wdt:P279 ?type;
                wdt:P176|wd:P178 ?entreprise;
@@ -14,15 +14,17 @@ WHERE {
           wdt:P400 ?plateform;
           wdt:P136 ?_genre;
           wdt:P123 ?_editeur;
+          
     OPTIONAL {?item  wdt:P495 ?_pays;
-                     wdt:P18 ?image.
+                     wdt:P18 ?image
              }
     VALUES ?type {wd:Q17589470 wd:Q27496624}
     VALUES ?entreprise {wd:Q18594 wd:Q8093 wd:Q2283 wd:Q463094}
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "fr, en".}
 }
 
 ```
-
+Cette requête me renvoie les instances wikidata de jeux vidéos en doublon. 
 
 ## Jeu de données
 ## Visualisation
