@@ -58,4 +58,8 @@ Les modifications apporter et les augmentations faites avec OpenRefine sont dans
 Après l'augmentation et le nettoyage du jeu de données, il ressort finalement 166 résultats qui sont divisés en  catégories distinctes :
 
 ## 3. Analyse et visualisation
-Pour cette partie, j'ai décidé de créer une story avec Flourish
+Pour cette partie, j'ai décidé de créer une story avec [Flourish](https://app.flourish.studio/projects)
+
+C'est partie pour une courte story :
+
+<iframe src='https://flo.uri.sh/story/748703/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/story/748703/?utm_source=embed&utm_campaign=story/748703' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
